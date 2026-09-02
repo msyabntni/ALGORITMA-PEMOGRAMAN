@@ -14,17 +14,14 @@ Berdasarkan hasil evaluasi tersebut, program akan menentukan apakah sudut terseb
 
 ## 📥 Input-Proses-Output
 
-### Input
-Besar sudut dalam satuan derajat.
+**Input:** Besar sudut dalam satuan derajat.
 
-### Proses
-Program membandingkan besar sudut dengan 90°.
+**Proses:** Program membandingkan besar sudut dengan 90°.
 
 * Jika besar sudut kurang dari 90°, maka sudut merupakan sudut lancip.
 * Jika besar sudut 90° atau lebih, maka sudut bukan merupakan sudut lancip.
 
-### Output
-Informasi mengenai apakah sudut merupakan sudut lancip atau bukan.
+**Output:** Informasi mengenai apakah sudut merupakan sudut lancip atau bukan.
 
 ---
 
@@ -73,59 +70,9 @@ Implementasi program dibuat menggunakan bahasa pemrograman **Python**.
 
 Simpan source code berikut dengan nama **`main.py`**:
 
-```python
-# Program Menentukan Jenis Sudut
-
-sudut = float(input("Masukkan besar sudut: "))
-
-if sudut < 90:
-    print("Sudut merupakan sudut lancip")
-else:
-    print("Sudut bukan merupakan sudut lancip")
-```
-
----
 
 ## 📸 Hasil Pengujian
 
 Program telah diuji menggunakan dua besar sudut sesuai dengan test case yang telah ditentukan.
 
-### Test Case 1
-
-**Input:**
-
-```text
-45
-```
-
-**Output:**
-
-```text
-Sudut merupakan sudut lancip
-```
-
-### Test Case 2
-
-**Input:**
-
-```text
-120
-```
-
-**Output:**
-
-```text
-Sudut bukan merupakan sudut lancip
-```
-
----
-
-## ✅ Kesimpulan
-
-Program berhasil menentukan jenis sudut berdasarkan besar sudut yang dimasukkan.
-
-* Jika sudut **kurang dari 90°**, maka sudut merupakan **sudut lancip**.
-* Jika sudut **90° atau lebih**, maka sudut **bukan merupakan sudut lancip**.
-
-Program menghasilkan output yang sesuai dengan kondisi dan test case yang telah ditentukan.
 <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/b9daca3d-829d-434e-b4c0-5db7a710aeda" />
