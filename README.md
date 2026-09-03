@@ -40,19 +40,19 @@ END IF
 
 ---
 
-## D.Flowchart
-
-```mermaid
+## D. Flowchart
 flowchart TD
     A([START]) --> B[/INPUT sudut/]
-    B --> C{Apakah sudut < 90°?}
+    B --> C{Apakah sudut < 90?}
 
     C -->|Ya| D[/OUTPUT: Sudut lancip/]
     C -->|Tidak| E[/OUTPUT: Bukan sudut lancip/]
 
     D --> F([END])
     E --> F
-##E. Test Case
+```
+
+## E. Test Case
 
 | Test Case | Input Sudut | Kondisi | Hasil yang Diharapkan |
 |---|---|---|---|
@@ -61,9 +61,7 @@ flowchart TD
 
 ## F. Implementasi Python
 
-Implementasi program dibuat menggunakan bahasa pemrograman **Python** dan dapat dijalankan melalui **Visual Studio Code**.
-
-Source code disimpan dalam file `main.py`.
+Implementasi program dibuat menggunakan bahasa pemrograman **Python**.
 
 ```python
 # Program Menentukan Jenis Sudut
