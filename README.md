@@ -40,7 +40,17 @@ END IF
 
 ---
 
+
+
+
+
+```
+
+---
+
 ## D. Flowchart
+
+```mermaid
 flowchart TD
     A([START]) --> B[/INPUT sudut/]
     B --> C{Apakah sudut < 90?}
@@ -52,16 +62,12 @@ flowchart TD
     E --> F
 ```
 
-## E. Test Case
+---
+## E. Implementasi Python
 
-| Test Case | Input Sudut | Kondisi | Hasil yang Diharapkan |
-|---|---|---|---|
-| 1 | 45° | Sudut < 90° | Sudut lancip |
-| 2 | 120° | Sudut ≥ 90° | Bukan sudut lancip |
+Implementasi program dibuat menggunakan bahasa pemrograman **Python** dan dapat dijalankan melalui **Visual Studio Code**.
 
-## F. Implementasi Python
-
-Implementasi program dibuat menggunakan bahasa pemrograman **Python**.
+Source code disimpan dalam file `main.py`.
 
 ```python
 # Program Menentukan Jenis Sudut
@@ -73,6 +79,15 @@ if sudut < 90:
 else:
     print("Bukan sudut lancip")
 ```
+
+## F. Test Case
+
+| Test Case | Input Sudut | Kondisi | Hasil yang Diharapkan |
+|---|---|---|---|
+| 1 | 45° | Sudut < 90° | Sudut lancip |
+| 2 | 120° | Sudut ≥ 90° | Bukan sudut lancip |
+
+
 
 ## G. Hasil Pengujian
 
@@ -127,7 +142,7 @@ Karena besar sudut **120° ≥ 90°**, maka program menampilkan **"Bukan sudut l
 <img width="960" height="504" alt="Screenshot 2026-09-02 213148" src="https://github.com/user-attachments/assets/e5279c8e-46be-47bb-bb05-6c7bf6cf70d8" />
 
 
-##  Kesimpulan Pengujian
+## J. Kesimpulan Pengujian
 
 Berdasarkan dua test case yang telah dilakukan, program berhasil menentukan jenis sudut sesuai dengan kondisi yang diberikan.
 
