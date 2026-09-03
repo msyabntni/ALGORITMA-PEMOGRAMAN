@@ -38,6 +38,7 @@ ELSE
     OUTPUT "Sudut bukan merupakan sudut lancip"
 END IF
 
+---
 
 ## D.Flowchart
 
@@ -51,7 +52,6 @@ flowchart TD
 
     D --> F([END])
     E --> F
-
 ##E. Test Case
 
 | Test Case | Input Sudut | Kondisi | Hasil yang Diharapkan |
