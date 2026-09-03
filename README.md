@@ -1,28 +1,29 @@
-# 🧮 Logika Matematika - Menentukan Jenis Sudut
+# Masya Bantani_Algoritma_Pemograman
+Tugas Algoritma Pemograman
 
-## 📝 Deskripsi Masalah
+## Menentukan Jenis Sudut
 
-Dalam pembelajaran matematika, khususnya materi geometri, sudut dapat dibedakan berdasarkan besar ukurannya. Salah satunya adalah **sudut lancip** dan **bukan sudut lancip**.
+## A. Deskripsi Masalah
 
-Sudut yang memiliki besar **kurang dari 90°** termasuk sudut lancip. Sedangkan sudut yang memiliki besar **90° atau lebih** bukan merupakan sudut lancip.
+Dalam pembelajaran matematika, khususnya materi geometri, sudut dapat dibedakan berdasarkan besar ukurannya. Salah satunya adalah sudut lancip dan bukan sudut lancip.
+
+Sudut yang memiliki besar kurang dari 90° termasuk sudut lancip. Sedangkan sudut yang memiliki besar 90° atau lebih bukan merupakan sudut lancip.
 
 Program ini menerapkan logika matematika untuk menentukan jenis sudut berdasarkan kondisi yang diberikan. Program akan menerima besar sudut sebagai input, kemudian mengevaluasi apakah besar sudut tersebut kurang dari 90° atau tidak.
 
-Berdasarkan hasil evaluasi tersebut, program akan menentukan apakah sudut tersebut merupakan **sudut lancip** atau **bukan sudut lancip**.
+Berdasarkan hasil evaluasi tersebut, program akan menentukan apakah sudut tersebut merupakan sudut lancip atau bukan sudut lancip.
 
 ---
 
-## 📥 Input-Proses-Output
+##  Identifikasi Input-Proses-Output
 
-**Input:** Besar sudut dalam satuan derajat.
 
-**Proses:** Program membandingkan besar sudut dengan 90°.
 
-* Jika besar sudut kurang dari 90°, maka sudut merupakan sudut lancip.
-* Jika besar sudut 90° atau lebih, maka sudut bukan merupakan sudut lancip.
-
-**Output:** Informasi mengenai apakah sudut merupakan sudut lancip atau bukan.
-
+| **Komponen** | **Keterangan** |
+|---|---|
+| **Input** | • Besar sudut dalam satuan derajat (°). |
+| **Proses** | Program membandingkan besar sudut dengan **90°** menggunakan kondisi logika:<br><br>• Jika sudut **kurang dari 90°**, maka sudut merupakan **sudut lancip**.<br>• Jika sudut **90° atau lebih**, maka sudut merupakan **bukan sudut lancip**. |
+| **Output** | Jenis sudut berdasarkan besar sudut yang dimasukkan, yaitu **sudut lancip** atau **bukan sudut lancip**. |
 ---
 
 ## 💻 Pseudocode
