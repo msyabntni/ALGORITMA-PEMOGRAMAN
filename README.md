@@ -124,10 +124,12 @@ Karena besar sudut **120° ≥ 90°**, maka program menampilkan **"Bukan sudut l
 | 1 | 45° | Sudut < 90° | Sudut lancip | Berhasil |
 | 2 | 120° | Sudut ≥ 90° | Bukan sudut lancip | Berhasil |
 
+## I. Hasil Pengujian
+
 <img width="960" height="504" alt="Screenshot 2026-09-02 213148" src="https://github.com/user-attachments/assets/e5279c8e-46be-47bb-bb05-6c7bf6cf70d8" />
 
 
-## ✅ Kesimpulan Pengujian
+##  Kesimpulan Pengujian
 
 Berdasarkan dua test case yang telah dilakukan, program berhasil menentukan jenis sudut sesuai dengan kondisi yang diberikan.
 
