@@ -65,9 +65,7 @@ flowchart TD
 ---
 ## E. Implementasi Python
 
-Implementasi program dibuat menggunakan bahasa pemrograman **Python** dan dapat dijalankan melalui **Visual Studio Code**.
 
-Source code disimpan dalam file `main.py`.
 
 ```python
 # Program Menentukan Jenis Sudut
@@ -85,13 +83,11 @@ else:
 | Test Case | Input Sudut | Kondisi | Hasil yang Diharapkan |
 |---|---|---|---|
 | 1 | 45° | Sudut < 90° | Sudut lancip |
-| 2 | 120° | Sudut ≥ 90° | Bukan sudut lancip |
+| 2 | 100° | Sudut ≥ 90° | Bukan sudut lancip |
 
 
 
-## G. Hasil Pengujian
-
-Program telah diuji menggunakan dua test case untuk memastikan program dapat menentukan jenis sudut dengan benar.
+## G. Pengujian Program
 
 ###  Test Case 1
 
@@ -117,7 +113,7 @@ Karena besar sudut **45° < 90°**, maka program menampilkan **"Sudut lancip"**.
 **Input:**
 
 ```text
-Masukkan besar sudut: 120
+Masukkan besar sudut: 100
 ```
 
 **Output:**
@@ -127,7 +123,7 @@ Bukan sudut lancip
 ```
 
 **Keterangan:**  
-Karena besar sudut **120° ≥ 90°**, maka program menampilkan **"Bukan sudut lancip"**.
+Karena besar sudut **100° ≥ 90°**, maka program menampilkan **"Bukan sudut lancip"**.
 
 ---
 ## H. Tabel Pengujian
@@ -135,7 +131,7 @@ Karena besar sudut **120° ≥ 90°**, maka program menampilkan **"Bukan sudut l
 | Test Case | Input Sudut | Kondisi | Output yang Diharapkan | Hasil Pengujian |
 |---|---|---|---|---|
 | 1 | 45° | Sudut < 90° | Sudut lancip | Berhasil |
-| 2 | 120° | Sudut ≥ 90° | Bukan sudut lancip | Berhasil |
+| 2 | 100° | Sudut ≥ 90° | Bukan sudut lancip | Berhasil |
 
 ## I. Hasil Pengujian
 
@@ -149,7 +145,7 @@ Berdasarkan dua test case yang telah dilakukan, program berhasil menentukan jeni
 | Test Case | Input | Hasil |
 |---|---:|---|
 | 1 | 45° | Sudut lancip |
-| 2 | 120° | Bukan sudut lancip |
+| 2 | 100° | Bukan sudut lancip |
 
 Program menghasilkan output yang sesuai dengan hasil yang diharapkan.
 
